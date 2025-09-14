@@ -4,7 +4,7 @@ local colors = {
 
 	-- https://git.kernel.org/cgit-data/cgit.css (mostly inaccurate)
 
-	black = "#000000",
+	-- black = "#000000",
 	cyan = "#66d9ef",
 	green = "#a6e22e",
 	grey = "#838183",
@@ -21,7 +21,7 @@ local theme = { -- {{{
 
 	-- :h highlight-groups
 
-	Bool = { fg = colors.black },
+	-- Bool = { fg = colors.black },
 	Comment = { fg = colors.grey },
 	Conditional = { fg = colors.green },
 	Constant = { fg = colors.green }, -- '.'
