@@ -15,7 +15,7 @@ local function f(c)
 	return {
 		a = { bg = c, fg = colors.black, gui = "bold" },
 		b = { bg = colors.grey, fg = colors.white },
-		c = { bg = colors.black, fg = colors.white },
+		c = { fg = colors.white },
 	}
 end
 
