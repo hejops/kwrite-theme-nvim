@@ -4,16 +4,22 @@ local colors = {
 
 	-- https://git.kernel.org/cgit-data/cgit.css (mostly inaccurate)
 
-	-- black = "#000000",
-	cyan = "#66d9ef",
-	green = "#a6e22e",
-	grey = "#838183",
-	orange = "#b07e00",
-	purple = "#ae81ff",
-	red = "#f92672",
-	white = "#e0eaee",
-	yellow = "#e6db74",
+	-- grey = "#838183",
+	-- orange = "#b07e00",
+	-- purple = "#ae81ff",
+	-- red = "#f92672",
+
+	cyan = "#66d9ef", -- 11.1:1
+	green = "#a6e22e", -- 11.8:1
+	grey = "#a3a1a3", -- 7.1:1 (#838183 was 4.7:1)
+	orange = "#d4a017", -- 7.7:1 (#b07e00 was 5.1:1)
+	purple = "#b88dff", -- 7.2:1 (#ae81ff was 6.4:1)
+	red = "#fb79a4", -- 7.3:1 (#f92672 was 4.8:1)
+	white = "#e0eaee", -- 14.9:1
+	yellow = "#e6db74", -- 12.8:1
 }
+
+os.execute("notify-send hi")
 
 local theme = { -- {{{
 
