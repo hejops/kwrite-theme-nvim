@@ -19,8 +19,6 @@ local colors = {
 	yellow = "#e6db74", -- 12.8:1
 }
 
-os.execute("notify-send hi")
-
 local theme = { -- {{{
 
 	-- structure taken from https://github.com/bgwdotdev/gleam-theme-nvim
